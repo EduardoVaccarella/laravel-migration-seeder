@@ -22,7 +22,7 @@ class CreateTrainsTable extends Migration
             $table->time('OrarioDiPartenza');
             $table->time('OrarioDiArrivo');
             $table->string('CodiceTreno');
-            $table->tinyInteger('NumeroDiCarrozze');
+            $table->mediumInteger('NumeroDiCarrozze');
             $table->boolean('InOrario');
             $table->boolean('Cancellato');
         });
